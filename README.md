@@ -38,6 +38,6 @@ Test
  *Mockito
  
 Entregables
-Repositorio publico Github: 
+Repositorio publico Github: https://github.com/KarenLopez1221/Capitole-Inditex/blob/main/README.md
 
  
