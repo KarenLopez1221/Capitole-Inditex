@@ -1,9 +1,6 @@
 package co.capitole.inditex.controller;
 
-import java.time.LocalDateTime;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,7 +20,7 @@ public class ApiRestController {
 
     @GetMapping("getPrices")
     public ResponseEntity<ResponseServiceDTO> getPrices(
-            @RequestParam ("applicationDate") String applicationDate,
+            @RequestParam("applicationDate") String applicationDate,
             @RequestParam("productId") int productId,
             @RequestParam("brandId") int brandId) {
         return new ResponseEntity<ResponseServiceDTO>(iPrices.getPrices(applicationDate, productId, brandId),
