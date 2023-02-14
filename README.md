@@ -1,6 +1,10 @@
 ## Capitole-Inditex
 
-Tecnologias usadas para el desarrollo de la prueba
+## Running application
+
+mvn spring-boot:run
+
+## Tecnologias
 
 Lenguaje y framework
 
@@ -35,11 +39,24 @@ Test
  *JUnit
  *Mockito
  
-Entregables
+## Entregable
+
 Repositorio publico Github: https://github.com/KarenLopez1221/Capitole-Inditex/blob/main/README.md
 
-## Running application
+## Curl
+curl --location --request GET 'http://localhost:8080/V1/Inditex/getPrices?applicationDate=2020-06-16T21:00:00&productId=35455&brandId=1'
 
-mvn spring-boot:run
+## Json de salida
+
+```json
+{
+    "productId": 35455,
+    "brandId": "ZARA",
+    "priceList": 1,
+    "applicationDates": "2020-06-14T00:00-2020-12-31T23:59:59",
+    "price": 35.5
+}
+```
+
 
  
