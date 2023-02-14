@@ -42,7 +42,6 @@ class CapitoleInditexApplicationTests {
 		Assertions.assertNotNull(ResponseService);
 		Assertions.assertNotNull(ResponseService.getBody());
 		assertEquals(HttpStatus.OK, ResponseService.getStatusCode());
-		// assertEquals(responseServiceDTO, ResponseService.getBody());
 	}
 
 	@Test
