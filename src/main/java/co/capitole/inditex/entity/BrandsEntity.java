@@ -11,20 +11,20 @@ import jakarta.persistence.Table;
 @Table(name = "BRANDS")
 public class BrandsEntity implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-    @Id
-    @Column(name = "BRAND_ID")
-    private int id;
+	@Id
+	@Column(name = "BRAND_ID")
+	private int id;
 
-    @Column(name = "DESC_BRAND")
-    private String desc;
+	@Column(name = "DESC_BRAND")
+	private String desc;
 
-    public int getId() {
-        return id;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public String getDesc() {
-        return desc;
-    }
+	public String getDesc() {
+		return desc;
+	}
 }

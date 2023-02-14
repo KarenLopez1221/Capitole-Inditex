@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CapitoleInditexApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(CapitoleInditexApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(CapitoleInditexApplication.class, args);
+	}
 
 }

@@ -1,9 +1,10 @@
 package co.capitole.inditex.services;
 
-import co.capitole.inditex.model.ResponseServiceDTO;
+import java.time.LocalDateTime;
+
+import co.capitole.inditex.model.ResponseService;
 
 public interface IPrices {
 
-    public ResponseServiceDTO getPrices(String applicationDate, int productId,
-            int brandId);
+	public ResponseService getPrices(LocalDateTime applicationDate, int productId, int brandId);
 }

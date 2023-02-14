@@ -1,8 +1,6 @@
-# Capitole-Inditex
+## Capitole-Inditex
 
-Solucion de la prueba
-
-El desarrollo de la prueba se realizó con las siguientes tecnologias:
+Tecnologias usadas para el desarrollo de la prueba
 
 Lenguaje y framework
 
@@ -39,5 +37,9 @@ Test
  
 Entregables
 Repositorio publico Github: https://github.com/KarenLopez1221/Capitole-Inditex/blob/main/README.md
+
+## Running application
+
+mvn spring-boot:run
 
  
