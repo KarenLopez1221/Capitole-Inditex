@@ -44,7 +44,9 @@ Test
 Repositorio publico Github: https://github.com/KarenLopez1221/Capitole-Inditex/blob/main/README.md
 
 ## Curl
+```json
 curl --location --request GET 'http://localhost:8080/V1/Inditex/getPrices?applicationDate=2020-06-16T21:00:00&productId=35455&brandId=1'
+```
 
 ## Json de salida
 
