@@ -1,4 +1,6 @@
-## Capitole-Inditex
+# Prueba Capitole-Inditex
+Karen Yulieth Lopez Medina
+*****************************************************************************************************************************************************************
 
 ## Running application
 
@@ -8,36 +10,36 @@ mvn spring-boot:run
 
 Lenguaje y framework
 
- *Java 8
- *Spring Boot 
+ 1. Java 8
+ 2. Spring Boot 
  
 Gestor de dependencias
 
- *Maven wrapper
+ 1. Maven wrapper
  
 Base de datos
 
- *H2
- *Flyway
+ 1. H2
+ 2. Flyway
 
 Versionamiento de codigo
 
- *Git
- *GitHub
+ 1. Git
+ 2. GitHub
 
 Entorno de desarrollo
 
- *Visual Studio Code
- *IntellijIdea
+ 1. Visual Studio Code
+ 2. IntellijIdea
 
 Pruebas de api
 
- *Postman
+ 1. Postman
 
 Test
 
- *JUnit
- *Mockito
+ 1. JUnit
+ 2. Mockito
  
 ## Entregable
 
